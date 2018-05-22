@@ -1,0 +1,161 @@
+QuikMenu-III
+
+[ MENU ]
+MenuFile=C:\QUIKMENU\QM.MNU
+CreateBAKFile=Yes
+DefFillCol=7
+DefLineCol=0
+DefTextCol=15
+DefFontName=LITT
+DefFontSize=10
+DefBtnShape=9
+DefBtnAlign=1
+DefIcon=87
+
+[ MISC ]
+3D=Yes
+Sound=No
+Confirm=No
+SpeedKeys=Yes
+Grid=Yes
+Snap=Yes
+MilitaryTime=Yes
+EuropeanDate=No
+Page=1
+PrevPage=2
+PLoad=
+PDos=
+PFile=
+PLaunch=
+PUtility=
+PLog=
+PPhoneBook=
+PMail=
+PExit=
+PScreen=
+PSPR=
+ShowInfo=Yes
+ShowLoad=No
+ShowModify=Yes
+ShowArrow=Yes
+ShowPage=Yes
+ShowDos=Yes
+ShowFile=Yes
+ShowUtility=Yes
+ShowExit=Yes
+ShowHelp=Yes
+
+[ PRINTER ]
+PrinterPort=LPT1
+PrintPause=No
+
+[ MOUSE ]
+MouseSpeed=1
+
+[ SCREEN BLANK ]
+Interval=5
+ScreenBlankType=2
+ScreenShuffle=2
+
+[ BACKDROP ]
+BackDrop=No
+TextMask=Yes
+BackDropFile=
+CenterImage=No
+
+[ LOG ]
+KeepLog=Yes
+LogFile=C:\QUIKMENU\QM.LOG
+LogReportTitle=TIME LOG
+LogSearchString=
+LogUser=
+LogSort=1
+LogTime=0
+LogTask=
+LogStartDate=0
+LogEndDate=0
+
+[ CALENDAR ]
+AutoRemind=Yes
+CalendarFile=C:\QUIKMENU\QM.CAL
+
+[ FILE MANAGER ]
+FileDir=C:\
+FileOrder=No
+
+[ MAIL/NETWORK ]
+MailDir=C:\QUIKMENU
+ShowMailDir=No
+CheckMail=Yes
+Beep=No
+PollMenu=No
+NetRefreshRate=5
+MASTER$INF=0
+
+[ PHONEBOOK/DIALER ]
+PhoneFile=C:\QUIKMENU\QM.PB
+ComPort=COM2
+Mode=Tone
+
+[ MACRO ]
+MacroFile=C:\QUIKMENU\VIEW.QMM
+MacroMode=0
+MacroPos=0
+MacroSpeed=0
+
+[ MEMORY ]
+UseEMS=Yes
+UseXMS=Yes
+UseDisk=Yes
+
+[ COLORS ]
+MenuBackground=9
+IconText=15
+TitleBar=5
+TitleText=14
+MenuBar=3
+MenuText=0
+StatusBar=3
+StatusText=15
+CommandButtons=7
+DialogInterior=7
+DialogFrame=3
+DialogText=0
+DialogEditBox=3
+DialogEditText=0
+ListBoxTitleBar=1
+ListBoxTitleText=15
+ListBoxInterior=11
+ListBoxText=1
+ListBoxScrollBar=8
+ViewerBackground=9
+ViewerText=14
+ViewerScrollBar=8
+EditorBackground=11
+EditorText=1
+EditorCursor=1
+EditorCursorText=15
+EditorScrollBar=8
+TimeLogTitleBar=3
+TimeLogTitleText=0
+TimeLogBackground=11
+TimeLogText=1
+TimeLogScrollBar=8
+
+[ VGA PALETTE ]
+COLOR00=0
+COLOR01=196608
+COLOR02=1984
+COLOR03=178816
+COLOR04=41
+COLOR05=159783
+COLOR06=1520
+COLOR07=174762
+COLOR08=120669
+COLOR09=247744
+COLOR10=4032
+COLOR11=262080
+COLOR12=77887
+COLOR13=258111
+COLOR14=4095
+COLOR15=262143

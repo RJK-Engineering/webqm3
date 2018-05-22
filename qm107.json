@@ -1,0 +1,653 @@
+{
+   "coloritems" : [
+      "MenuBackground",
+      "IconText",
+      "TitleBar",
+      "TitleText",
+      "MenuBar",
+      "MenuText",
+      "StatusBar",
+      "StatusText",
+      "CommandButtons",
+      "DialogInterior",
+      "DialogFrame",
+      "DialogText",
+      "DialogEditBox",
+      "DialogEditText",
+      "ListBoxTitleBar",
+      "ListBoxTitleText",
+      "ListBoxInterior",
+      "ListBoxText",
+      "ListBoxScrollBar",
+      "ViewerBackground",
+      "ViewerText",
+      "ViewerScrollBar",
+      "EditorBackground",
+      "EditorText",
+      "EditorCursor",
+      "EditorCursorText",
+      "EditorScrollBar",
+      "TimeLogTitleBar",
+      "TimeLogTitleText",
+      "TimeLogBackground",
+      "TimeLogText",
+      "TimeLogScrollBar"
+   ],
+   "colors" : {
+      "BLARNEY" : [
+         3,
+         14,
+         2,
+         14,
+         10,
+         0,
+         2,
+         14,
+         7,
+         3,
+         2,
+         1,
+         2,
+         15,
+         2,
+         14,
+         3,
+         14,
+         2,
+         3,
+         14,
+         2,
+         2,
+         15,
+         15,
+         2,
+         2,
+         10,
+         0,
+         3,
+         14,
+         2
+      ],
+      "CALYPSO" : [
+         13,
+         15,
+         5,
+         14,
+         3,
+         14,
+         5,
+         14,
+         7,
+         9,
+         5,
+         14,
+         1,
+         15,
+         5,
+         14,
+         13,
+         0,
+         1,
+         5,
+         14,
+         1,
+         5,
+         14,
+         14,
+         5,
+         1,
+         3,
+         0,
+         1,
+         14,
+         5
+      ],
+      "CHARCOAL" : [
+         7,
+         15,
+         8,
+         15,
+         7,
+         0,
+         8,
+         15,
+         7,
+         7,
+         8,
+         0,
+         7,
+         0,
+         8,
+         15,
+         7,
+         0,
+         8,
+         7,
+         0,
+         8,
+         7,
+         0,
+         0,
+         7,
+         8,
+         7,
+         0,
+         7,
+         0,
+         8
+      ],
+      "DEFAULT" : [
+         9,
+         15,
+         1,
+         15,
+         7,
+         0,
+         7,
+         0,
+         7,
+         7,
+         3,
+         0,
+         3,
+         0,
+         1,
+         15,
+         11,
+         1,
+         8,
+         9,
+         14,
+         8,
+         11,
+         1,
+         1,
+         15,
+         8,
+         3,
+         0,
+         11,
+         1,
+         8
+      ],
+      "DUSK" : [
+         0,
+         15,
+         0,
+         15,
+         0,
+         15,
+         0,
+         14,
+         7,
+         8,
+         7,
+         15,
+         7,
+         0,
+         8,
+         15,
+         8,
+         15,
+         8,
+         0,
+         15,
+         8,
+         0,
+         15,
+         15,
+         0,
+         8,
+         0,
+         15,
+         0,
+         15,
+         8
+      ],
+      "ROB" : [
+         9,
+         15,
+         5,
+         14,
+         3,
+         0,
+         3,
+         15,
+         7,
+         7,
+         3,
+         0,
+         3,
+         0,
+         1,
+         15,
+         11,
+         1,
+         8,
+         9,
+         14,
+         8,
+         11,
+         1,
+         1,
+         15,
+         8,
+         3,
+         0,
+         11,
+         1,
+         8
+      ]
+   },
+   "inf" : {
+      "BACKDROP" : {
+         "BackDrop" : "No",
+         "BackDropFile" : "",
+         "CenterImage" : "No",
+         "TextMask" : "Yes"
+      },
+      "CALENDAR" : {
+         "AutoRemind" : "Yes",
+         "CalendarFile" : "C:\\QUIKMENU\\QM.CAL"
+      },
+      "COLORS" : {
+         "CommandButtons" : "7",
+         "DialogEditBox" : "3",
+         "DialogEditText" : "0",
+         "DialogFrame" : "3",
+         "DialogInterior" : "7",
+         "DialogText" : "0",
+         "EditorBackground" : "11",
+         "EditorCursor" : "1",
+         "EditorCursorText" : "15",
+         "EditorScrollBar" : "8",
+         "EditorText" : "1",
+         "IconText" : "15",
+         "ListBoxInterior" : "11",
+         "ListBoxScrollBar" : "8",
+         "ListBoxText" : "1",
+         "ListBoxTitleBar" : "1",
+         "ListBoxTitleText" : "15",
+         "MenuBackground" : "9",
+         "MenuBar" : "3",
+         "MenuText" : "0",
+         "StatusBar" : "3",
+         "StatusText" : "15",
+         "TimeLogBackground" : "11",
+         "TimeLogScrollBar" : "8",
+         "TimeLogText" : "1",
+         "TimeLogTitleBar" : "3",
+         "TimeLogTitleText" : "0",
+         "TitleBar" : "5",
+         "TitleText" : "14",
+         "ViewerBackground" : "9",
+         "ViewerScrollBar" : "8",
+         "ViewerText" : "14"
+      },
+      "FILE_MANAGER" : {
+         "FileDir" : "C:\\",
+         "FileOrder" : "No"
+      },
+      "LOG" : {
+         "KeepLog" : "Yes",
+         "LogEndDate" : "0",
+         "LogFile" : "C:\\QUIKMENU\\QM.LOG",
+         "LogReportTitle" : "TIME LOG",
+         "LogSearchString" : "",
+         "LogSort" : "1",
+         "LogStartDate" : "0",
+         "LogTask" : "",
+         "LogTime" : "0",
+         "LogUser" : ""
+      },
+      "MACRO" : {
+         "MacroFile" : "C:\\QUIKMENU\\VIEW.QMM",
+         "MacroMode" : "0",
+         "MacroPos" : "0",
+         "MacroSpeed" : "0"
+      },
+      "MAIL/NETWORK" : {
+         "Beep" : "No",
+         "CheckMail" : "Yes",
+         "MASTER$INF" : "0",
+         "MailDir" : "C:\\QUIKMENU",
+         "NetRefreshRate" : "5",
+         "PollMenu" : "No",
+         "ShowMailDir" : "No"
+      },
+      "MEMORY" : {
+         "UseDisk" : "Yes",
+         "UseEMS" : "Yes",
+         "UseXMS" : "Yes"
+      },
+      "MENU" : {
+         "CreateBAKFile" : "Yes",
+         "DefBtnAlign" : "1",
+         "DefBtnShape" : "9",
+         "DefFillCol" : "7",
+         "DefFontName" : "LITT",
+         "DefFontSize" : "10",
+         "DefIcon" : "87",
+         "DefLineCol" : "0",
+         "DefTextCol" : "15",
+         "MenuFile" : "C:\\QUIKMENU\\QM.MNU"
+      },
+      "MISC" : {
+         "3D" : "Yes",
+         "Confirm" : "No",
+         "EuropeanDate" : "No",
+         "Grid" : "Yes",
+         "MilitaryTime" : "Yes",
+         "PDos" : "",
+         "PExit" : "",
+         "PFile" : "",
+         "PLaunch" : "",
+         "PLoad" : "",
+         "PLog" : "",
+         "PMail" : "",
+         "PPhoneBook" : "",
+         "PSPR" : "",
+         "PScreen" : "",
+         "PUtility" : "",
+         "Page" : "1",
+         "PrevPage" : "2",
+         "ShowArrow" : "Yes",
+         "ShowDos" : "Yes",
+         "ShowExit" : "Yes",
+         "ShowFile" : "Yes",
+         "ShowHelp" : "Yes",
+         "ShowInfo" : "Yes",
+         "ShowLoad" : "No",
+         "ShowModify" : "Yes",
+         "ShowPage" : "Yes",
+         "ShowUtility" : "Yes",
+         "Snap" : "Yes",
+         "Sound" : "No",
+         "SpeedKeys" : "Yes"
+      },
+      "MOUSE" : {
+         "MouseSpeed" : "1"
+      },
+      "PHONEBOOK/DIALER" : {
+         "ComPort" : "COM2",
+         "Mode" : "Tone",
+         "PhoneFile" : "C:\\QUIKMENU\\QM.PB"
+      },
+      "PRINTER" : {
+         "PrintPause" : "No",
+         "PrinterPort" : "LPT1"
+      },
+      "SCREEN_BLANK" : {
+         "Interval" : "5",
+         "ScreenBlankType" : "2",
+         "ScreenShuffle" : "2"
+      },
+      "VGA_PALETTE" : {
+         "COLOR00" : "0",
+         "COLOR01" : "196608",
+         "COLOR02" : "1984",
+         "COLOR03" : "178816",
+         "COLOR04" : "41",
+         "COLOR05" : "159783",
+         "COLOR06" : "1520",
+         "COLOR07" : "174762",
+         "COLOR08" : "120669",
+         "COLOR09" : "247744",
+         "COLOR10" : "4032",
+         "COLOR11" : "262080",
+         "COLOR12" : "77887",
+         "COLOR13" : "258111",
+         "COLOR14" : "4095",
+         "COLOR15" : "262143"
+      }
+   },
+   "pages" : [
+      {
+         "items" : [
+            {
+               "activate" : 1,
+               "align" : 1,
+               "bordercolor" : 0,
+               "command" : "@VIEW=READ.ME",
+               "edit" : 0,
+               "fillcolor" : 11,
+               "font" : "LITT",
+               "fontsize" : 10,
+               "h" : 21,
+               "icon" : null,
+               "key" : 65,
+               "link" : 0,
+               "name" : "QuikMenu Info",
+               "page" : 1,
+               "style" : 3,
+               "textcolor" : 0,
+               "type" : 4,
+               "w" : 107,
+               "x" : 24,
+               "y" : 8
+            },
+            {
+               "activate" : 1,
+               "align" : 1,
+               "bordercolor" : 0,
+               "command" : "@VIEW=ORDRBLNK.TXT",
+               "edit" : 0,
+               "fillcolor" : 11,
+               "font" : "LITT",
+               "fontsize" : 10,
+               "h" : 21,
+               "icon" : null,
+               "key" : 66,
+               "link" : 0,
+               "name" : "Register by Mail",
+               "page" : 1,
+               "style" : 3,
+               "textcolor" : 0,
+               "type" : 4,
+               "w" : 124,
+               "x" : 237,
+               "y" : 8
+            },
+            {
+               "activate" : 1,
+               "align" : 1,
+               "bordercolor" : 0,
+               "command" : "WIN",
+               "edit" : 0,
+               "fillcolor" : 11,
+               "font" : "LITT",
+               "fontsize" : 10,
+               "h" : 21,
+               "icon" : null,
+               "key" : 67,
+               "link" : 0,
+               "location" : "C:\\WINDOWS",
+               "name" : "Windows",
+               "page" : 1,
+               "style" : 3,
+               "textcolor" : 0,
+               "type" : 4,
+               "w" : 73,
+               "x" : 450,
+               "y" : 8
+            }
+         ],
+         "pagenr" : 1,
+         "title" : "QuikMenu 1.07 (C)1990-1992 by OSCS"
+      },
+      {
+         "pagenr" : 2,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 3,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 4,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 5,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 6,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 7,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 8,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 9,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 10,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 11,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 12,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 13,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 14,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 15,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 16,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 17,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 18,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 19,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 20,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 21,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 22,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 23,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 24,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 25,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 26,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 27,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 28,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 29,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 30,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 31,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 32,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 33,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 34,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 35,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 36,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 37,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 38,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 39,
+         "title" : "Untitled"
+      },
+      {
+         "pagenr" : 40,
+         "title" : "Untitled"
+      }
+   ],
+   "palette" : [
+      "000000",
+      "0000c3",
+      "007d00",
+      "00aaae",
+      "a60000",
+      "9e009e",
+      "c35d00",
+      "aaaaaa",
+      "757575",
+      "007df3",
+      "00ff00",
+      "00ffff",
+      "ff004d",
+      "ff00ff",
+      "ffff00",
+      "ffffff"
+   ]
+}

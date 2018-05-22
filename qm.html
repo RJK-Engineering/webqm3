@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QuikMenu III (C)1990-97 NeoSoft Corp.</title>
+    <link rel="stylesheet" href="qm.css" type="text/css" />
+    <link rel="stylesheet" href="qm_colors.css" type="text/css" />
+    <script src="MooTools.js" type="text/javascript"></script>
+    <!-- load application -->
+    <script src="QM3App.js" type="text/javascript"></script>
+    <!-- start application -->
+    <script src="qm.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+<table id="window">
+<tr>
+    <td class="TitleBar TitleBarCorner"></td>
+    <td class="TitleBar TitleText" id="pagetitle">QuikMenu III (C)1990-97 NeoSoft Corp.</td>
+    <td class="TitleBar TitleText TitleBarCorner" id="pagenr">1</td>
+</tr>
+
+<tr>
+    <td colspan="3" class="MenuBar">
+        <button class="CommandButtons ButtonBar" id="info" data-dialog="infoDialog"><u>I</u>nfo</button>
+        <button class="CommandButtons ButtonBar" id="modify" data-dialog="screenSetupDialog"><u>M</u>odify</button>
+        <button class="CommandButtons ButtonBar" id="pageup">&uarr;</button>
+        <button class="CommandButtons ButtonBar" id="page"><u>P</u>age</button>
+        <button class="CommandButtons ButtonBar" id="pagedown">&darr;</button>
+        <button class="CommandButtons ButtonBar" id="dos">D<u>O</u>S</button>
+        <button class="CommandButtons ButtonBar" id="file"><u>F</u>ile</button>
+        <button class="CommandButtons ButtonBar" id="utility"><u>U</u>tility</button>
+        <button class="CommandButtons ButtonBar" id="exit">E<u>x</u>it</button>
+        <button class="CommandButtons ButtonBar" id="help">F1=Help</button>
+    </td>
+</tr>
+
+<tr class="MenuBackground IconText">
+    <td class="Menu" id="menu" colspan="3"></td>
+</tr>
+
+<tr class="StatusBar">
+    <td class="StatusBar StatusText" id="date" colspan="2">Monday, January 1, 2000</td>
+    <td class="StatusBar StatusText" id="time">20:00</td>
+</tr>
+</table>
+
+
+<div class="Dialog" id="infoDialog" data-border-template="dialogBorder">
+    <!-- <div style="border: 1px solid black; width: 100%"> -->
+    <div>
+        <img class="Border" id="infoImage" src="dialog/Info.png" alt="Mona Lisa"/>
+        <div>
+            <p>QuikMenu III (TM)</p>
+            <p>Version 3.1h - September 17, 1998</p>
+            <p>NeoSoft Corp.<br>P.O. Box 5667<br>Bend, Oregon 97708-5667</p>
+            <p>Voice: (541) 389-5489<br>Fax: (541) 388-8221<br>Web Site: http://www.neosoftware.com</p>
+            <p>(C)1990-1997 NeoSoft Corp.</p>
+        </div>
+    </div>
+    <br>
+    <div><p>&rarr;Written by: Dave Riley</p></div>
+    <button class="CommandButtons Done">ESC=Done</button>
+</div>
+
+<div class="Dialog" id="screenSetupDialog" data-border-template="dialogBorder">
+    <div>
+        <div class="Fieldset" id="colorScheme">
+            <div>
+                <input class="DialogEditBox" id="colorItem" type="text" value="Menu Background"/>
+                <button class="CommandButtons" id="colorItemList">F5=List</button>
+            </div><br>
+            <div class="Justified" id="colorSelection">
+                <span id="colorLabel">C<u>o</u>lor:</span>
+                <table id="colorpalette">
+                    <tr>
+                        <td class="ColorOption">
+                            <div class="ColorBorder">
+                            <div class="Color">
+                        </div></div></td>
+                        <td class="ColorOption">
+                            <div class="ColorBorder">
+                            <div class="Color">
+                        </div></div></td>
+                        <td class="ColorOption">
+                            <div class="ColorBorder">
+                            <div class="Color">
+                        </div></div></td>
+                        <td class="ColorOption">
+                            <div class="ColorBorder">
+                            <div class="Color">
+                        </div></div></td>
+                        <td class="ColorOption">
+                            <div class="ColorBorder">
+                            <div class="Color">
+                        </div></div></td>
+                        <td class="ColorOption">
+                            <div class="ColorBorder">
+                            <div class="Color">
+                        </div></div></td>
+                        <td class="ColorOption">
+                            <div class="ColorBorder">
+                            <div class="Color">
+                        </div></div></td>
+                        <td class="ColorOption">
+                            <div class="ColorBorder">
+                            <div class="Color">
+                        </div></div></td>
+                    </tr>
+                    <tr>
+                        <td class="ColorOption">
+                            <div class="ColorBorder">
+                            <div class="Color">
+                        </div></div></td>
+                        <td class="ColorOption">
+                            <div class="ColorBorder">
+                            <div class="Color">
+                        </div></div></td>
+                        <td class="ColorOption">
+                            <div class="ColorBorder">
+                            <div class="Color">
+                        </div></div></td>
+                        <td class="ColorOption">
+                            <div class="ColorBorder">
+                            <div class="Color">
+                        </div></div></td>
+                        <td class="ColorOption">
+                            <div class="ColorBorder">
+                            <div class="Color">
+                        </div></div></td>
+                        <td class="ColorOption">
+                            <div class="ColorBorder">
+                            <div class="Color">
+                        </div></div></td>
+                        <td class="ColorOption">
+                            <div class="ColorBorder">
+                            <div class="Color">
+                        </div></div></td>
+                        <td class="ColorOption">
+                            <div class="ColorBorder">
+                            <div class="Color">
+                        </div></div></td>
+                    </tr>
+                </table>
+            </div><br>
+            <div class="Justified">
+                <button class="CommandButtons Checkbox" id="usePcx"></button>
+                <span>Use <u>P</u>CX image</span>
+                <button class="CommandButtons" id="chooseFile">Choose <u>F</u>ile</button>
+            </div>
+            <br>
+        </div><br>
+        <div>
+            <button class="CommandButtons" id="loadColors" data-dialog="loadColorsDialog"><span>Lo<u>a</u>d Colors</span></button>
+            <button class="CommandButtons" id="saveColors"><span>Save Co<u>l</u>ors</span></button>
+            <button class="CommandButtons" id="defaultColors"><span>D<u>e</u>fault</span></button>
+        </div><br>
+    </div>
+    <div>
+        <button class="CommandButtons Checkbox"></button><u>S</u>ound Effects<br>
+        <button class="CommandButtons Checkbox"></button><u>C</u>onfirm Programs<br>
+        <button class="CommandButtons Checkbox"></button>3-D <u>I</u>nterface<br>
+        <button class="CommandButtons Checkbox"></button><u>D</u>isplay Speed Keys<br>
+        <button class="CommandButtons Checkbox"></button>Display <u>G</u>rid<br>
+        <button class="CommandButtons Checkbox"></button>S<u>n</u>ap to Grid<br>
+    </div>
+    <div>
+        PCX Memory:<br>
+        <button class="CommandButtons Checkbox"></button>
+        E<u>M</u>S Memory<br>
+        <button class="CommandButtons Checkbox"></button>
+        <u>X</u>MS Memory<br>
+        <button class="CommandButtons Checkbox"></button>
+        Dis<u>k</u> Memory<br>
+        <button class="CommandButtons Ok Done">ENTER=Ok</button><br>
+        <button class="CommandButtons Cancel Done">ESC=Cancel</button><br>
+    </div>
+</div>
+
+<div class="Dialog" id="editSoftwareItemDialog" data-border-template="dialogBorder">
+    <table>
+        <tr>
+            <td>Speed Key:</td>
+            <td>
+                <input class="DialogEditBox" id="softwareItemSpeedkey"></input>
+                <button class="CommandButtons">F5=List Programs</button>
+                <button class="CommandButtons">F7=Password</button>
+                <button class="CommandButtons">F9=Style</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Name:</td>
+            <td><input class="DialogEditBox" id="softwareItemName"></input></td>
+        </tr>
+        <tr>
+            <td>Location:</td>
+            <td><input class="DialogEditBox" id="softwareItemLocation"></input></td>
+        </tr>
+        <tr>
+            <td>Command:</td>
+            <td><input class="DialogEditBox" id="softwareItemCommand"></input></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button class="CommandButtons Checkbox" id="softwareItemPause"></button>Pause
+                <button class="CommandButtons"><u>A</u>sk For File</button>
+                <button class="CommandButtons">F2=Editor</button>
+                <button class="CommandButtons Ok Done">ENTER=Ok</button>
+                <button class="CommandButtons Cancel Done">ESC=Cancel</button>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div class="Dialog" id="loadColorsDialog" data-border-template="dialogBorder">
+    <div>
+        <select class="ListBoxInterior" id="selectColorScheme" size="20">
+            <option class="ListBoxText File Drive">A:</option>
+            <option class="ListBoxText File Drive">C:</option>
+            <option class="ListBoxText File Root">\</option>
+            <option class="ListBoxText File Parent">..</option>
+<!--             <option class="ListBoxText File">ANDORRSDSDA</option>
+            <option class="ListBoxText File">BNDORRSSDA</option>
+            <option class="ListBoxText File">BNDORRSDA</option>
+            <option class="ListBoxText File Executable">BNDORRSA.EXE</option>
+            <option class="ListBoxText File X">BNSDSDA.OLD</option>
+            <option class="ListBoxText File X">ANSDA.OLD</option>
+            <option class="ListBoxText File">ANDSDA</option>
+            <option class="ListBoxText File">ANA</option>
+ -->
+        </select>
+    </div>
+    <div>
+        Select a Color Scheme<br>
+        <button class="CommandButtons Done"><u>F</u>ind</button><br>
+        <button class="CommandButtons Cancel Done">ESC=Cancel</button><br>
+    </div>
+</div>
+
+<template id="dialogBorder" data-border-width="18" data-placeholder="dialogContent">
+    <div class="BorderOutside">
+        <div class="BorderFace DialogFrame">
+            <div class="BorderInside">
+                <div class="DialogContent DialogInterior" id="dialogContent"></div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<script src="borders.js" type="text/javascript"></script>
+
+
+</body>
+
+</html>

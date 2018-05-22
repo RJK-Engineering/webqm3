@@ -1,0 +1,94 @@
+my $icons = new QuikMenu3::Icons('QM_COLOR.DEF');
+
+while (my $icon = $icons->next()) {
+    for my $y (0..31) {
+        for my $x (0..31) {
+            printf "%2u", $icon->pixelmap->[$y][$x];
+        }
+        print "\n";
+    }
+    print "\n";
+    for my $y (0..31) {
+        for my $x (0..31) {
+            printf "%2u", $icon->mask->[$y][$x];
+        }
+        print "\n";
+    }
+    print "\n";
+    last;
+}
+
+black       7F FF FF FF   7F FF FF FF   7F FF FF FF   7F FF FF FF
+blue        7F FF FF FF   7F FF FF FF   7F FF FF FF   FF!FF FF FF
+green       7F FF FF FF   7F FF FF FF   FF!FF FF FF   7F!FF FF FF
+cyan        7F FF FF FF   7F FF FF FF   FF FF FF FF   FF!FF FF FF
+brown       7F FF FF FF   FF!FF FF FF   7F!FF FF FF   7F!FF FF FF
+purple      7F FF FF FF   FF FF FF FF   7F FF FF FF   FF!FF FF FF
+orange      7F FF FF FF   FF FF FF FF   FF!FF FF FF   7F!FF FF FF
+grey        7F FF FF FF   FF FF FF FF   FF FF FF FF   FF!FF FF FF
+darkgrey    FF!FF FF FF   7F!FF FF FF   7F!FF FF FF   7F!FF FF FF
+brightblue  FF FF FF FF   7F FF FF FF   7F FF FF FF   FF!FF FF FF
+brightgreen FF FF FF FF   7F FF FF FF   FF!FF FF FF   7F!FF FF FF
+brightcyan  FF FF FF FF   7F FF FF FF   FF FF FF FF   FF!FF FF FF
+red         FF FF FF FF   FF!FF FF FF   7F!FF FF FF   7F!FF FF FF
+magenta     FF FF FF FF   FF FF FF FF   7F FF FF FF   FF!FF FF FF
+yellow      FF FF FF FF   FF FF FF FF   FF!FF FF FF   7F!FF FF FF
+white       FF FF FF FF   FF FF FF FF   FF FF FF FF   FF!FF FF FF
+
+1 FF FF FF FF   7F!FF FF FF   FF FF FF FF   7F!FF FF FF
+2 FF FF FF FF   3F FF FF FF   FF FF FF FF   3F FF FF FF
+3 FF FF FF FF   1F FF FF FF   FF FF FF FF   1F FF FF FF
+4 FF FF FF FF   0F FF FF FF   FF FF FF FF   0F FF FF FF
+5 FF FF FF FF   07 FF FF FF   FF FF FF FF   07 FF FF FF
+6 FF FF FF FF   03 FF FF FF   FF FF FF FF   03 FF FF FF
+7 FF FF FF FF   01 FF FF FF   FF FF FF FF   01 FF FF FF
+8 FF FF FF FF   00 FF FF FF   FF FF FF FF   00 FF FF FF
+9 FF FF FF FF   00 7F FF FF   FF FF FF FF   00 7F FF FF
+...
+
+sequence of rows (32 rows x 32 pixels)
+row = 4 groups of 32 bits
+a group contains a pixel bitmap
+each group contains a bit for the palette index
+
+
+A row with first pixel palette index 7, second palette index 5 and
+rest palette index 0: (bit order might be incorrect)
+
+group pixels 1..32
+1     1100 0000 0000 0000 0000 0000 0000 0000
+2     1000 0000 0000 0000 0000 0000 0000 0000
+3     1100 0000 0000 0000 0000 0000 0000 0000
+4     1000 0000 0000 0000 0000 0000 0000 0000
+
+
+
+color \ group 1 2 3 4
+
+black         1 1 1 1
+blue          1 1 1 -
+green         1 1 - 1
+cyan          1 1 - -
+brown         1 - 1 1
+purple        1 - 1 -
+orange        1 - - 1
+grey          1 - - -
+darkgrey      - 1 1 1
+brightblue    - 1 1 -
+brightgreen   - 1 - 1
+brightcyan    - 1 - -
+red           - - 1 1
+magenta       - - 1 -
+yellow        - - - 1
+white         - - - -
+
+
+header [ 0, 4 >
+       1F 00 1F 00
+pixelmap: [ 4 , 204 >
+          4 groups of 32 bits for each row
+          row sequence: first to last row
+header [ 204, 208 >
+       1F 00 1F 00
+mask: [ 208 , 408 >
+      same sequence as pixelmap

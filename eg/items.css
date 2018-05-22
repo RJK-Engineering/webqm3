@@ -1,0 +1,154 @@
+div {
+    display: inline-block;
+}
+div.ItemContainer {
+    position: absolute;
+}
+
+div.Icon {
+    text-align: center;
+    font-size: 10px;
+}
+div.Icon.LeftAlign {
+    float: left;
+}
+div.Icon.RightAlign {
+    float: right;
+}
+
+img.Icon {
+    margin: 0;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+}
+img.Icon.CenterAlign {
+    margin-bottom: 4px;
+}
+
+/* Borders */
+
+div.ItemBorder {
+    border-width: 0;
+    border-style: solid;
+}
+div.ItemBorder.Border0 {
+    border-width: 1px;
+
+    /*background-color: #ff004d;*/
+}
+div.ItemBorder.Border1 {
+    border-width: 1px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+
+    /*background-color: #ff004d;*/
+}
+div.ItemBorder.Border2 {
+    border: 2px solid #000000;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+
+    /*background-color: #ff004d;*/
+}
+div.ItemBorder.Border3 {
+    border-width: 1px;
+    box-shadow: 1px 1px #000000,
+                2px 2px #000000;
+
+    /*background-color: #ff004d;*/
+}
+
+div.ItemBorder.Border4 {
+    border-width: 1px;
+
+    /*background-color: #ff004d;*/
+}
+.TriangleTopLeft {
+    border-width: 1px;
+    border-top: 7px solid #000000;
+    border-right: 8px solid transparent;
+    position: relative;
+    width: 0;
+    height: 0;
+
+    /* width 160, height 40, padding 4 */
+    left: -171px; /* 160 + 2*4 + 3 */
+    top: -44px;   /*  40 + 2*4 - 4 */
+}
+.TriangleTopRight {
+    border-top: 7px solid #000000;
+    border-left: 8px solid transparent;
+    position: relative;
+    width: 0;
+    height: 0;
+
+    left: -15px;
+    top: -44px;
+}
+.TriangleBottomLeft {
+    border-bottom: 7px solid #000000;
+    border-right: 8px solid transparent;
+    position: relative;
+    width: 0;
+    height: 0;
+
+    left: -187px; /* 160 + 2*4 + 19 */
+    top: 1px;
+}
+.TriangleBottomRight {
+    border-bottom: 7px solid #000000;
+    border-left: 8px solid transparent;
+    position: relative;
+    width: 0;
+    height: 0;
+
+    left: -31px;
+    top: 1px;
+}
+
+div.ItemBorder.Border5 {
+    outline: 1px solid #000000;
+    border: 1px solid #ffffff;
+    border-right-color: #757575;
+    border-bottom-color: #757575;
+
+    /*background-color: #ff004d;*/
+}
+
+div.ItemBorder.Border6 {
+    outline: 1px solid #000000;
+    border: 1px solid #ffffff;
+    border-right-color: #757575;
+    border-bottom-color: #757575;
+    padding: 2px;
+
+    /*background-color: #ff004d;*/
+}
+div.ItemFace {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding: 4px;
+}
+div.ItemFace.Raised {
+    border: 1px solid #ffffff;
+    border-right-color: #757575;
+    border-bottom-color: #757575;
+    padding: 1px;
+}
+div.ItemFace.Sunken {
+    border: 1px solid #ffffff;
+    border-left-color: #757575;
+    border-top-color: #757575;
+    padding: 1px;
+}
+
+div.ItemBorder.Border8 {
+    outline: 2px solid #000000;
+    border: 2px solid #ffffff;
+    border-right-color: #757575;
+    border-bottom-color: #757575;
+
+    /*background-color: #ff004d;*/
+}

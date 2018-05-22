@@ -1,0 +1,498 @@
+* {
+    font-family: "Lucida Console";
+    font-size: 11px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+div {
+    display: inline-block;
+}
+div.Page {
+    display: none;
+}
+div.Justified {
+    width: 100%;
+}
+
+table {
+    display: inline-block;
+    border-collapse: collapse;
+}
+
+p {
+    margin-top: 2px;
+    margin-bottom: 6px;
+}
+span {
+    white-space: nowrap;
+}
+span.Label {
+    margin: 2px;
+}
+img.Border {
+    border: 1px solid #ffffff;
+    border-top-color: #000000;
+    border-left-color: #000000;
+}
+button {
+    display: inline-block;
+    padding-left: 5px;
+    height: 20px;
+    margin: 2px;
+    outline: 1px solid #000000;
+    border: 1px solid #ffffff;
+    border-right-color: #757575;
+    border-bottom-color: #757575;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 1px 1px #000000;
+}
+button:active {
+    border: 1px solid #ffffff;
+    border-left-color: #757575;
+    border-top-color: #757575;
+    color: #000000;
+    text-shadow: 1px 1px #ffffff;
+}
+button.Active {
+    border: 1px solid #ffffff;
+    border-left-color: #757575;
+    border-top-color: #757575;
+    color: #000000;
+    text-shadow: 1px 1px #ffffff;
+}
+button.Done {
+    width: 78px;
+}
+button.Checkbox {
+    width: 20px;
+}
+
+/****************************************************************************/
+/* Window Layout
+/****************************************************************************/
+
+table#window {
+    display: table;
+    width: 640px;
+    height: 480px;
+}
+td.TitleBarCorner {
+    padding-right: 13px;
+    width: 30px;
+    text-align: right;
+}
+td.TitleBar {
+    padding-top: 2px;
+    height: 15px;
+    font-weight: bold;
+}
+td.TitleBar#pagetitle {
+    padding-left: 6px;
+    text-align: center;
+}
+td.MenuBar {
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    height: 20px;
+}
+td.StatusBar {
+    font-weight: bold;
+    border-top: 1px solid #000000;
+    height: 19px;
+}
+td.StatusBar#date {
+    padding-left: 9px;
+}
+td.StatusBar#time {
+    padding-right: 9px;
+    text-align: right;
+}
+
+/****************************************************************************/
+/* Button Bar
+/****************************************************************************/
+
+button.ButtonBar {
+    margin: 0;
+    padding-left: 5px;
+    height: 18px;
+}
+button#info { width: 44px; margin-left: 6px; }
+button#modify { width: 60px; margin-left: 7px; }
+button#pageup { width: 20px; margin-left: 6px; }
+button#page { width: 44px; margin-left: -6px; }
+button#pagedown { width: 20px; margin-left: -6px; }
+button#dos { width: 36px; margin-left: 6px; }
+button#file { width: 44px; margin-left: -2px; }
+button#utility { width: 68px; margin-left: -2px; }
+button#exit { width: 44px; margin-left: 6px; }
+button#help { width: 68px; margin-left: 106px; }
+
+/****************************************************************************/
+/* Menu Items
+/****************************************************************************/
+
+div.ItemContainer {
+    position: absolute;
+}
+
+div.Icon {
+    text-align: center;
+    font-size: 10px;
+}
+div.Icon.Align0 {
+    float: left;
+}
+div.Icon.Align2 {
+    float: right;
+}
+div.Icon.TextShadow {
+    text-shadow: 1px 1px #000000;
+}
+
+img.Icon {
+    margin: 0;
+    margin-left: 4px;
+    margin-right: 4px;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+}
+img.Icon.Align1 {
+    margin-bottom: 4px;
+}
+
+/****************************************************************************/
+/* Menu Item Borders
+/****************************************************************************/
+
+div.ItemBorder {
+    border-width: 0;
+    border-style: solid;
+}
+div.ItemBorder.Border0 {
+    border-width: 1px;
+}
+div.ItemBorder.Border1 {
+    border-width: 1px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+div.ItemBorder.Border2 {
+    border: 2px solid #000000;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+div.ItemBorder.Border3 {
+    border-width: 1px;
+    box-shadow: 1px 1px #000000,
+                2px 2px #000000;
+}
+
+div.ItemBorder.Border4 {
+    border-width: 1px;
+}
+div.TriangleTopLeft {
+    border-width: 1px;
+    border-top: 7px solid #000000;
+    border-right: 8px solid transparent;
+    position: relative;
+    width: 0;
+    height: 0;
+}
+div.TriangleTopRight {
+    border-top: 7px solid #000000;
+    border-left: 8px solid transparent;
+    position: relative;
+    width: 0;
+    height: 0;
+}
+div.TriangleBottomLeft {
+    border-bottom: 7px solid #000000;
+    border-right: 8px solid transparent;
+    position: relative;
+    width: 0;
+    height: 0;
+}
+div.TriangleBottomRight {
+    border-bottom: 7px solid #000000;
+    border-left: 8px solid transparent;
+    position: relative;
+    width: 0;
+    height: 0;
+}
+
+div.ItemBorder.Border5 {
+    outline: 1px solid #000000;
+    border: 1px solid #ffffff;
+    border-right-color: #757575;
+    border-bottom-color: #757575;
+}
+div.ItemBorder.Border6,
+div.ItemBorder.Border7 {
+    outline: 1px solid #000000;
+    border: 1px solid #ffffff;
+    border-right-color: #757575;
+    border-bottom-color: #757575;
+    padding: 2px;
+}
+div.ItemBorder.Border8 {
+    outline: 2px solid #000000;
+    border: 2px solid #ffffff;
+    border-right-color: #757575;
+    border-bottom-color: #757575;
+}
+
+div.ItemFace {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding: 3px;
+}
+div.ItemFace.Border6 {
+    border: 1px solid #ffffff;
+    border-right-color: #757575;
+    border-bottom-color: #757575;
+    padding: 0;
+}
+div.ItemFace.Border7 {
+    border: 1px solid #ffffff;
+    border-left-color: #757575;
+    border-top-color: #757575;
+    padding: 0;
+}
+div.ItemFace.Border8 {
+    padding: 0;
+}
+div.ItemFace.Border9 {
+    padding: 0;
+}
+/****************************************************************************/
+/* Dialog
+/****************************************************************************/
+
+div.Dialog {
+    display: none;
+    border: 1px solid #000000;
+    font-weight: bold;
+}
+div.Fieldset {
+    border: 1px solid #ffffff;
+    border-top-color: #757575;
+    border-left-color: #757575;
+    margin: 2px;
+    padding: 5px;
+}
+input.DialogEditBox {
+    font-weight: bold;
+    border: 1px solid #ffffff;
+    border-top-color: #757575;
+    border-left-color: #757575;
+    margin: 1px;
+    padding-left: 7px;
+    padding-right: 7px;
+    height: 16px;
+}
+
+/****************************************************************************/
+/* Dialog Border
+/****************************************************************************/
+
+div.BorderOutside {
+    border: 1px solid #ffffff;
+    border-right-color: #757575;
+    border-bottom-color: #757575;
+}
+div.BorderFace {
+    border-width: 5px;
+    border-style: solid;
+}
+div.BorderInside {
+    border: 1px solid #ffffff;
+    border-top-color: #757575;
+    border-left-color: #757575;
+}
+div.DialogContent {
+    border: 1px solid #000000;
+    padding: 10px 10px;
+}
+
+/****************************************************************************/
+/* Info Dialog
+/****************************************************************************/
+
+div#infoDialog {
+    position: absolute;
+    left: 92px;
+    top: 150px;
+    width: 453px;
+    height: 197px;
+}
+img#infoImage {
+    float: left;
+    margin: 7px;
+    margin-left: 1px;
+    margin-top: 4px;
+}
+
+/****************************************************************************/
+/* Screen Setup Dialog
+/****************************************************************************/
+
+div#screenSetupDialog {
+    position: absolute;
+    left: 12px;
+    top: 159px;
+    width: 613px;
+    height: 181px;
+}
+
+div#colorScheme {
+    margin-bottom: 11px;
+    width: 247px;
+    height: 95px;
+}
+div#colorSelection {
+    /*margin-top: 10px;*/
+}
+input#colorItem {
+    /*margin-right: 1px;*/
+    width: 158px;
+    margin: 1px;
+}
+button#colorItemList {
+    float: right;
+    margin-right: 1px;
+    /*margin-left: 1px;*/
+    width: 68px;
+}
+span#colorLabel {
+    float: left;
+    /*margin: 4px;*/
+    /*margin-top: 1px;*/
+    /*width: 46px;*/
+}
+button#usePcx {
+    /*margin: 3px;*/
+    /*margin-bottom: 0;*/
+}
+button#chooseFile {
+    float: right;
+}
+
+button#loadColors {
+    float: left;
+    padding-left: 1px;
+    width: 92px;
+}
+button#saveColors {
+    float: left;
+    padding-left: 1px;
+    width: 92px;
+}
+button#defaultColors {
+    width: 68px;
+}
+
+/****************************************************************************/
+/* Edit Software Item Dialog
+/****************************************************************************/
+
+div#editSoftwareItemDialog {
+    /*display: block;*/
+    position: absolute;
+    left: 20px;
+    top: 166px;
+    width: 597px;
+    height: 165px;
+}
+
+input#softwareItemSpeedkey {
+    width: 9px;
+}
+input#softwareItemName {
+    width: 449px;
+}
+input#softwareItemLocation {
+    width: 449px;
+}
+input#softwareItemCommand {
+    width: 449px;
+}
+
+/****************************************************************************/
+/* Load Colors Dialog
+/****************************************************************************/
+
+div#loadColorsDialog {
+    position: absolute;
+    left: 88px;
+    top: 55px;
+    width: 461px;
+    height: 389px;
+}
+
+select#selectColorScheme {
+    padding: 2px;
+    padding-left: 4px;
+    width: 200px;
+    height: 300px;
+    /*background: transparent;*/
+}
+
+option.File {
+    background: url(listbox/file.png) no-repeat;
+    padding-left: 16px;
+    font-weight: bold;
+    font-size: 10px;
+    height: 10px;
+}
+option.File.Folder { background: url(listbox/folder.png) no-repeat; }
+option.File.Drive { background: url(listbox/drive.png) no-repeat; }
+option.File.Root { background: url(listbox/root.png) no-repeat; }
+option.File.Parent { background: url(listbox/parent.png) no-repeat; }
+option.File.Executable { background: url(listbox/executable.png) no-repeat; }
+option.File.X { background: url(listbox/x.png) no-repeat; }
+
+/****************************************************************************/
+/* Color Palette
+/****************************************************************************/
+
+td.ColorOption {
+    display: inline-block;
+    float: left;
+    padding: 0;
+    padding-left: 4px;
+    width: 20px;
+    height: 16px;
+}
+div.ColorBorder {
+    border: 1px solid #ffffff;
+    border-right-color: #757575;
+    border-bottom-color: #757575;
+    margin: 2px;
+    padding-left: 1px;
+    padding-right: 1px;
+    width: 12px;
+    height: 10px;
+}
+div.ColorBorder.Active {
+    border: 1px solid #ffffff;
+    border-left-color: #757575;
+    border-top-color: #757575;
+    margin: 0;
+    padding: 1px;
+    width: 16px;
+    height: 12px;
+}
+div.Color {
+    width: 12px;
+    height: 8px;
+}
+div.Color.Active {
+    width: 16px;
+    height: 12px;
+}

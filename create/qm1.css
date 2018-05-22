@@ -1,0 +1,189 @@
+* {
+    font-family: "Lucida Console";
+    font-size: 11px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+table#window {
+    width: 640px;
+    height: 480px;
+}
+td.TitleBar {
+    font-weight: bold;
+    height: 19px;
+    padding-top: 2px;
+}
+td.TitleBarCorner {
+    width: 30px;
+    padding-right: 13px;
+}
+td.TitleBar#pagenr {
+    text-align: right;
+}
+td.TitleBar#title {
+    text-align: center;
+    padding-left: 6px;
+}
+td.MenuBar {
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    height: 23px;
+}
+td.StatusBar {
+    font-weight: bold;
+    border-top: 1px solid #000000;
+    height: 21px;
+}
+td.StatusBar#date {
+    padding-left: 9px;
+}
+td.StatusBar#time {
+    text-align: right;
+    padding-right: 9px;
+}
+
+button {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-right-color: #757575;
+    border-bottom-color: #757575;
+    outline: 1px solid #000000;
+    font-weight: bold;
+    text-shadow: 1px 1px #000000;
+    padding-left: 5px;
+    /*width: 100%;*/
+    /*height: 100%;*/
+    display: inline-block;
+    position: relative;
+    margin-left: 6px;
+    height: 20px;
+}
+button:active {
+    color: #000000;
+    border: 1px solid #ffffff;
+    border-left-color: #757575;
+    border-top-color: #757575;
+    text-shadow: 1px 1px #ffffff;
+}
+button.Active {
+    color: #000000;
+    border: 1px solid #ffffff;
+    border-left-color: #757575;
+    border-top-color: #757575;
+    text-shadow: 1px 1px #ffffff;
+}
+button.Done {
+    width: 78px;
+    height: 20px;
+}
+
+div.Item {
+    position: absolute;
+    float: left;
+    text-align: center;
+}
+img.Item {
+    width: 32;
+    height: 32;
+    margin-bottom: 4px;
+}
+img.Border {
+    border: 1px solid #ffffff;
+    border-top-color: #000000;
+    border-left-color: #000000;
+}
+img#info {
+    margin-left: 11px;
+    margin-top: 14px;
+    float: left;
+}
+div.ButtonBorder.MenuBar {
+    height: 18px;
+}
+button#info { height: 18px; width: 44px; }
+button#modify { height: 18px; width: 60px; left: 1px; }
+button#pageup { height: 18px; width: 20px; left: 1px; }
+button#page { height: 18px; width: 44px; left: -11px; }
+button#pagedown { height: 18px; width: 20px; left: -23px; }
+button#dos { height: 18px; width: 36px; left: -23px; }
+button#file { height: 18px; width: 44px; left: -31px; }
+button#utility { height: 18px; width: 68px; left: -39px; }
+button#exit { height: 18px; width: 44px; left: -39px; }
+button#help { height: 18px; width: 68px; left: 61px; }
+
+div.Page {
+    display: none;
+}
+div.Dialog {
+    display: none;
+    border: 1px solid #000000;
+    font-weight: bold;
+}
+div.Dialog#info {
+    position: absolute;
+    left: 92px;
+    top: 150px;
+    width: 453px;
+    height: 197px;
+}
+
+div.BorderOutside {
+    border: 1px solid #ffffff;
+    border-right-color: #757575;
+    border-bottom-color: #757575;
+}
+div.BorderFace {
+    border-width: 5px;
+    border-style: solid;
+}
+div.BorderInside {
+    border: 1px solid #ffffff;
+    border-top-color: #757575;
+    border-left-color: #757575;
+}
+
+div.DialogContent {
+    background-color: #aaaaaa;
+    border: 1px solid #000000;
+}
+
+/* QuikMenu color items */
+
+.MenuBackground { background-color: #007df3; }
+.IconText { color: #ffffff; }
+.TitleBar { background-color: #9e009e; }
+.TitleText { color: #ffff00; }
+.MenuBar { background-color: #00aaae; }
+.MenuText { color: #000000; }
+.StatusBar { background-color: #00aaae; }
+.StatusText { color: #ffffff; }
+.CommandButtons { background-color: #aaaaaa; }
+.DialogInterior { background-color: #aaaaaa; }
+.DialogFrame { border-color: #00aaae; }
+.DialogText { color: #000000; }
+.DialogEditBox { background-color: #00aaae; }
+.DialogEditText { color: #000000; }
+.ListBoxTitleBar { background-color: #0000c3; }
+.ListBoxTitleText { color: #ffffff; }
+.ListBoxInterior { background-color: #00ffff; }
+.ListBoxText { color: #0000c3; }
+.ListBoxScrollBar { background-color: #757575; }
+.ViewerBackground { background-color: #007df3; }
+.ViewerText { color: #ffff00; }
+.ViewerScrollBar { background-color: #757575; }
+.EditorBackground { background-color: #00ffff; }
+.EditorText { color: #0000c3; }
+.EditorCursor { background-color: #0000c3; }
+.EditorCursorText { color: #ffffff; }
+.EditorScrollBar { background-color: #757575; }
+.TimeLogTitleBar { background-color: #00aaae; }
+.TimeLogTitleText { color: #000000; }
+.TimeLogBackground { background-color: #00ffff; }
+.TimeLogText { color: #0000c3; }
+.TimeLogScrollBar { background-color: #757575; }

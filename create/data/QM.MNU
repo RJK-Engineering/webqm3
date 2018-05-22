@@ -1,0 +1,533 @@
+QuikMenu-III
+
+50
+QuikMenu III (C)1990-97 NeoSoft Corp.ÿ
+QuikMenu OOBÿ
+Sierraÿ
+Item Stylesÿ
+Racingÿ
+Strategyÿ
+Platformÿ
+Shooterÿ
+Adventureÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+Untitledÿ
+1 5 7 0 15 82 10 48 96 39 47 5 1 0 9 1 30
+LITT
+Racing
+
+
+
+1 5 7 0 15 50 10 144 16 75 47 2 1 0 9 1 30
+LITT
+QuikMenu OOB
+
+
+
+1 5 7 0 15 83 10 408 16 39 47 3 1 0 9 1 30
+LITT
+Sierra
+
+
+
+1 5 7 0 15 70 10 120 96 49 47 7 1 0 9 1 30
+LITT
+Platform
+
+
+
+1 5 7 0 15 84 10 200 96 50 47 6 1 0 9 1 30
+LITT
+Strategy
+
+
+
+1 5 7 0 15 65 10 392 96 57 47 9 1 0 9 1 30
+LITT
+Adventure
+
+
+
+1 4 7 0 15 67 10 96 224 183 47 0 1 0 9 1 0
+LITT
+Hitchhikers Guide to the Galaxy
+C:\GAMES\HITCHH~1
+HITCHHIK
+
+1 6 7 0 15 76 10 528 344 50 47 0 1 0 9 1 0
+LITT
+View log
+C:\QUIKMENU\VIEWLOG.QMM
+
+
+1 4 7 0 15 68 10 40 160 52 47 0 1 0 9 1 0
+LITT
+SkyRoads
+C:\GAMES\SKYROADS
+SKYROADS
+
+1 4 7 0 15 52 10 40 336 35 47 0 1 0 9 1 100
+LITT
+4DOS
+C:\4DOS
+4DOS
+
+1 4 7 0 15 87 10 120 336 73 47 1 1 0 9 1 0
+LITT
+Windows 3.11
+C:\WINDOWS
+WIN
+
+1 4 7 0 15 81 10 368 192 84 47 0 1 0 9 1 0
+LITT
+QuickBasic 4.5
+C:\QB
+QB
+
+1 4 7 0 15 72 10 536 192 50 47 0 1 0 9 1 106
+LITT
+NeoPaint
+C:\NEOPAINT
+NEOPAINT
+
+1 4 7 0 15 66 10 312 280 105 47 0 1 0 9 1 87
+LITT
+Chess Master 2100
+C:\GAMES\CHESSM~1
+2100
+
+1 5 7 0 15 49 10 296 96 45 47 8 1 0 9 1 30
+LITT
+Shooter
+
+
+
+1 5 12 14 15 69 10 496 56 99 57 4 1 0 12 1 14
+LITT
+Item Styles
+
+
+
+2 4 7 0 15 67 10 346 8 90 47 0 1 0 9 1 5
+LITT
+NeoSoft Catalog
+
+@VIEW=CATALOG.TXT
+
+2 4 7 0 15 68 10 488 8 124 47 0 1 0 9 1 94
+LITT
+International Dealers
+
+@VIEWRO=DEALER.DOC
+
+2 4 7 0 15 69 10 24 63 99 47 0 1 0 9 1 14
+LITT
+Background Image
+
+@PCXLOAD=[Select a File=\QUIKMENU\*.PCX]
+
+2 6 7 0 15 70 10 200 63 64 47 2 1 0 9 1 74
+LITT
+Demo Macro
+C:\QUIKMENU\DEMO.QMM
+DEMO
+
+2 4 7 0 15 71 10 358 63 67 47 0 1 0 9 1 5
+LITT
+Find a File
+
+@VIEW= [Search Results==[Find What?]]
+
+2 4 7 0 15 66 10 190 8 87 47 0 1 0 9 1 6
+LITT
+Order QuikMenu
+
+@EDIT=ORDRFORM.TXT
+
+2 4 7 0 15 65 10 53 8 46 47 0 1 0 9 1 5
+LITT
+Read Me
+
+@VIEWRO=README.DOC
+
+3 4 7 0 15 49 10 48 72 46 47 0 1 0 9 1 0
+LITT
+Larry 1
+C:\SIERRA\LSL1
+SIERRA
+
+3 5 7 0 15 96 10 48 8 57 47 1 1 0 9 1 30
+LITT
+Main Menu
+
+
+
+3 4 7 0 15 80 10 32 136 85 47 0 1 0 9 1 0
+LITT
+Police Quest 1
+C:\SIERRA\PQ
+PQ
+
+3 4 7 0 15 83 10 32 200 81 47 0 1 0 9 1 0
+LITT
+Space Quest 1
+C:\SIERRA\SQ
+SQ
+
+3 4 7 0 15 65 10 128 72 46 47 0 1 0 9 1 0
+LITT
+Larry 2
+C:\SIERRA\LSL2
+LSL2
+
+3 4 7 0 15 66 10 288 72 46 47 0 1 0 9 1 0
+LITT
+Larry 5
+C:\SIERRA\LSL5
+LSL5
+
+3 4 7 0 15 67 10 208 72 46 47 0 1 0 9 1 107
+LITT
+Larry 3
+C:\SIERRA\LSL3
+LSL3
+
+3 4 7 0 15 68 10 360 72 46 47 0 1 0 9 1 108
+LITT
+Larry 6
+C:\SIERRA\LSL6
+LSL6
+
+4 4 12 14 15 65 10 8 16 64 40 0 1 0 0 0 14
+LITT
+0
+
+
+
+4 4 12 14 15 66 10 80 16 48 40 0 1 0 1 1 14
+LITT
+1
+
+
+
+4 4 12 14 15 67 10 136 16 64 40 0 1 0 2 2 14
+LITT
+2
+
+
+
+4 4 12 14 15 68 10 208 16 48 40 0 1 0 3 1 14
+LITT
+3
+
+
+
+4 4 12 14 15 69 10 264 16 64 40 0 1 0 4 0 14
+LITT
+4
+
+
+
+4 4 12 14 15 70 10 336 16 48 40 0 1 0 5 1 14
+LITT
+5
+
+
+
+4 4 12 14 15 71 10 392 16 64 40 0 1 0 6 2 14
+LITT
+6
+
+
+
+4 4 12 14 15 72 10 464 16 48 40 0 1 0 7 1 14
+LITT
+7
+
+
+
+4 4 12 14 15 73 10 520 16 64 40 0 1 0 8 0 14
+LITT
+8
+
+
+
+4 4 12 14 15 75 10 8 64 64 40 0 1 0 10 0 14
+LITT
+10
+
+
+
+4 4 12 14 15 76 10 80 64 48 57 0 1 0 11 1 14
+LITT
+11
+
+
+
+4 4 12 14 15 77 10 136 64 64 40 0 1 0 12 2 14
+LITT
+12
+
+
+
+4 4 12 14 15 78 10 208 64 48 57 0 1 0 13 1 14
+LITT
+13
+
+
+
+4 4 12 14 15 79 10 264 64 64 48 0 1 0 14 0 14
+LITT
+14
+
+
+
+4 4 12 14 15 80 10 336 64 48 57 0 1 0 15 1 14
+LITT
+15
+
+
+
+4 4 12 14 15 81 10 392 64 64 40 0 1 0 16 2 14
+LITT
+16
+
+
+
+4 4 12 14 15 82 10 464 64 48 57 0 1 0 17 1 14
+LITT
+17
+
+
+
+4 4 12 14 15 83 10 520 64 64 40 0 1 0 18 0 14
+LITT
+18
+
+
+
+4 4 12 14 15 74 10 8 136 43 31 0 1 0 9 0 14
+LITT
+9
+
+
+
+4 4 12 14 15 84 10 80 136 35 47 0 1 0 9 1 14
+LITT
+9
+
+
+
+4 4 12 14 15 85 10 136 136 43 31 0 1 0 9 2 14
+LITT
+9
+
+
+
+5 5 7 0 15 96 10 48 16 57 47 1 1 0 9 1 30
+LITT
+Main Menu
+
+
+
+5 4 7 0 15 69 10 64 80 38 47 0 1 0 9 1 105
+LITT
+Stunts
+C:\GAMES\STUNTS
+STUNTS_K
+
+5 4 7 0 15 70 10 152 80 35 47 0 1 0 9 1 0
+LITT
+Vette
+C:\GAMES\VETTE
+VETTE
+
+5 4 7 0 15 74 10 224 80 108 47 0 1 0 9 1 0
+LITT
+Rally Championship
+C:\GAMES\RALLY
+RACE
+
+6 5 7 0 15 96 10 48 16 57 47 1 1 0 9 1 30
+LITT
+Main Menu
+
+
+
+6 4 7 0 15 82 10 40 104 35 47 0 1 0 9 1 0
+LITT
+Dune
+C:\GAMES\DUNE
+DUNE
+
+6 4 7 0 15 68 10 120 104 40 47 0 1 0 9 1 0
+LITT
+Dune 2
+C:\GAMES\DUNE2
+DUNE2
+
+6 4 7 0 15 75 10 40 168 35 47 0 1 0 9 1 0
+LITT
+1869
+C:\GAMES\1869
+1869
+
+6 4 7 0 15 65 10 24 232 73 47 0 1 0 9 1 0
+LITT
+SimCity 2000
+C:\GAMES\SC2000
+SC2000
+
+6 4 7 0 15 77 10 24 296 67 47 0 1 0 9 1 0
+LITT
+Battle Bugs
+C:\GAMES\BBUGS
+BUGS
+
+7 5 7 0 15 96 10 40 16 57 47 1 1 0 9 1 30
+LITT
+Main Menu
+
+
+
+7 4 7 0 15 78 10 40 80 51 47 0 1 0 9 1 109
+LITT
+Lemmings
+C:\GAMES\LEMMINGS
+VLEM2
+
+7 4 7 0 15 65 10 32 280 92 47 0 1 0 9 1 0
+LITT
+Crystal Caves 3
+C:\GAMES\CC3
+CC3
+
+7 4 7 0 15 79 10 8 208 143 47 0 1 0 9 1 103
+LITT
+Prince of Persia megahit
+C:\GAMES\PRINCE
+PRINCE megahit
+
+7 4 7 0 15 80 10 48 144 56 47 0 1 0 9 1 0
+LITT
+Lion King
+C:\GAMES\LIONKING
+LIONKING
+
+7 4 7 0 15 85 10 280 144 115 47 0 1 0 9 1 0
+LITT
+Fury of the Furries
+C:\GAMES\FURY
+GO
+
+7 4 7 0 15 67 10 120 80 63 47 0 1 0 9 1 102
+LITT
+Lemmings 2
+C:\GAMES\LEMM2
+L2
+
+7 4 7 0 15 66 10 160 144 86 47 0 1 0 9 1 0
+LITT
+Blues Brothers
+C:\GAMES\BLUESB
+GO
+
+7 4 7 0 15 69 10 368 80 87 47 0 1 0 9 1 0
+LITT
+X-Mas Lemmings
+C:\GAMES\X-MASL~1
+VGALEMMI
+
+7 4 7 0 15 68 10 216 80 119 47 0 1 0 9 1 0
+LITT
+Oh No! More Lemmings
+C:\GAMES\OHNO!M~1
+LEMMINGS
+
+7 4 7 0 15 70 10 304 64 54 47 0 1 0 9 1 0
+LITT
+codes.txt
+C:\GAMES\OHNO!M~1
+c:\view.bat codes.txt
+
+7 4 7 0 15 71 10 64 336 100 47 0 1 0 9 1 0
+LITT
+Commander Keen 1
+C:\GAMES\KEEN1
+KEEN1
+
+7 4 7 0 15 72 10 192 336 100 47 0 1 0 9 1 0
+LITT
+Commander Keen 5
+C:\GAMES\KEEN5
+KEEN5E
+
+8 4 7 0 15 71 10 24 88 84 47 0 1 0 9 1 0
+LITT
+Wolfenstein 3D
+C:\GAMES\WOLF3D
+WOLF3D
+
+8 5 7 0 15 96 10 40 16 57 47 1 1 0 9 1 30
+LITT
+Main Menu
+
+
+
+8 4 7 0 15 73 10 136 88 183 47 0 1 0 9 1 0
+LITT
+Wolfenstein 3D Spear of Destiny
+C:\GAMES\WOLFSOD
+WOLF3D
+
+9 4 7 0 15 67 10 40 80 114 47 0 1 0 9 1 101
+LITT
+Day of the Tantacle
+C:\GAMES\DOTT
+DOTT
+
+9 5 7 0 15 96 10 40 16 57 47 1 1 0 9 1 30
+LITT
+Main Menu
+
+
+

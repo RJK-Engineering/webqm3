@@ -1,0 +1,42 @@
+css properties:
+*Text = color
+other = background-color
+EditorCursor?
+
+-----------------------------------
+
+MenuBackground=9
+IconText=15
+TitleBar=5
+TitleText=14
+MenuBar=3
+MenuText=0
+StatusBar=3
+StatusText=15
+
+CommandButtons=7
+DialogInterior=7
+DialogFrame=3
+DialogText=0
+DialogEditBox=3
+DialogEditText=0
+ListBoxTitleBar=1
+ListBoxTitleText=15
+
+ListBoxInterior=11
+ListBoxText=1
+ListBoxScrollBar=8
+ViewerBackground=9
+ViewerText=14
+ViewerScrollBar=8
+EditorBackground=11
+EditorText=1
+
+EditorCursor=1
+EditorCursorText=15
+EditorScrollBar=8
+TimeLogTitleBar=3
+TimeLogTitleText=0
+TimeLogBackground=11
+TimeLogText=1
+TimeLogScrollBar=8
