@@ -1,4 +1,4 @@
-# qm
+# webqm3
 
 QuikMenu III emulator in HTML/Javascript.
 
