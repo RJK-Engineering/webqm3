@@ -24,7 +24,7 @@ my $header =
     '0000010008000000'.
     '0000000000000000'.
     '0000000000000001'.
-    '000000000000';
+    '000000000000'; # 62 bytes, 496 bits
 
 use Class::AccessorMaker {
     file => undef,
@@ -174,7 +174,7 @@ __END__
 256 color ICO
 
 palette: [ 3e ,  43e >
-        256 * 4 byte, first 3 bytes = bgr, 4th byte = null
+        256 * 4 byte, first 3 bytes = bgr, 4th byte = alpha
         sequence: left to right
 pixelmap: [ 43e , 83e >
           32*32 * 1 byte palette index
