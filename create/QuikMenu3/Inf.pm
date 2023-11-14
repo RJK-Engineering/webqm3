@@ -9,7 +9,7 @@ sub read {
     my ($self, $file) = @_;
 
     my $section;
-    open (my $fh, $file) || croak $!;
+    open (my $fh, $file) || croak "$!: $file";
     my $line = <$fh>;
     $line =~ /^QuikMenu-III/ || croak "First line should be QuikMenu-III";
 
